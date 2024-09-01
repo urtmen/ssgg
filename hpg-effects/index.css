@@ -1,0 +1,164 @@
+:root {
+	--cell-width: 72px;
+	--max-width: calc(var(--cell-width) * 8);
+	--cell-margin-left: 0px;
+}
+body {
+	background: transparent;
+	padding: 20px 0;
+	font-family: Calibri, serif;
+	max-width: var(--max-width);
+	margin: 10 auto;
+	box-sizing: border-box;
+	position: relative;
+	color: #20262E;
+	overflow: hidden;
+}
+.clear {
+	clear: both;
+}
+.information {
+	position: absolute;
+	top: 500px;
+	width: 100%;
+}
+.information > ul > li {
+	margin-top: 14px;
+}
+.cell-left-margin {
+	margin-bottom: 10px;
+}
+.cell-left-margin label {
+	vertical-align: top;
+}
+.inventory {
+	max-width: 100%;
+	user-select: none;
+	/* Чтобы первая ячейка не обрезалась с краю в OBS */
+	margin-left: calc(var(--cell-margin-left) * -1);
+}
+.cell {
+	margin-left: 6px;
+	position: relative;
+	float: left;
+	width: var(--cell-width);
+	height: var(--cell-width);
+	background-color: #ddd;
+	border: 0px ridge #d0733d;
+	box-sizing: border-box;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.cell.active {
+	background-color: #dee;
+}
+.cell.not-slot {
+	float: right;
+	border-color: #3d93d0;
+}
+.cell img {
+	max-width: 100%;
+}
+.cell .controls {
+	position: absolute;
+	top: 0;
+}
+.cell .controls a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	font-size: 2em;
+	font-family: monospace;
+	text-decoration: none;
+	border-radius: 50%;
+	border-color: #666;
+	border-style: solid;
+	border-width: 1px;
+	background: #eee;
+	text-align: center;
+}
+.cell .controls .remove {
+	color: #a70000;
+}
+.cell .controls *:hover {
+	color: #FF0076;
+}
+.add-cell {
+	cursor: pointer;
+	float: left;
+	margin: 20px 0 20px 4px;
+	width: 32px;
+	height: 32px;
+	border-width: 5px;
+	border-radius: 50%;
+	border-color: #ddd;
+	border-style: double;
+	background: #2c7523;
+	color: #eee;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	line-height: 16px;
+	text-shadow: 1px 1px 0 #000;
+	visibility: hidden;
+}
+.add-cell:hover {
+	background: #3a982f;
+}
+body:hover .add-cell {
+	visibility: visible;
+}
+.add-cell:focus {
+	outline: none;
+}
+.selector {
+	user-select: none;
+	display: none;
+	margin-top: 10px;
+	background: #bbb;
+	max-width: 100%;
+	overflow-y: scroll;
+	max-height: calc(var(--cell-width) * 3);
+}
+.selector ul {
+	margin: 0;
+	padding: 0;
+}
+.selector li {
+	list-style-type: none;
+	float: left;
+	width: var(--cell-width);
+	height: var(--cell-width);
+	box-sizing: border-box;
+}
+.selector li:hover {
+	background: #ddd;
+}
+.selector li img {
+	width: 100%;
+}
+.BUFF .cell {
+	background-color: rgba(6,25,7,0);
+	border-color: #a70000;
+}
+.DEBUFF .cell {
+	background-color: rgba(45,9,9,0);
+	border-color: #a70000;
+}
+.TARGET_TRAP .cell {
+	background-color: rgba(27,71,73,0);
+	border-color: #356b3e;
+}
+.NONTARGET_TRAP .cell {
+	background-color: rgba(28,43,58,0);
+	border-color: #85935a;
+}
+.SPECIFIC_WHEEL_ROLL .cell {
+	background-color: rgba(39,23,53,0);
+	border-color: #6c6699;
+}
+.FOOD .cell {
+	background-color: rgba(39,52,76,0);
+	border-color: #467a3d;
+}
