@@ -16,59 +16,89 @@ const items = [
     },    
     {
         img: 'images/001.png',
-        title: 'Четырехлистный клевер',
+        title: 'Плюс игра',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/002.png',
-        title: 'Набор для шитья',
+        title: 'Минус игра',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/003.png',
-        title: 'Закопанная банка',
+        title: 'Оптовая закупка',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/004.png',
-        title: 'Схрон неизвестного',
+        title: 'Орел Решка',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/005.png',
-        title: 'Забытая вещь бродяги',
+        title: 'Интрига',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/006.png',
-        title: 'Максимальное доверие',
+        title: 'Спонсорское задание',
         type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/007.png',
-        title: 'Отвар из ромашки',
+        title: 'Во власти чисел',
         type: EFFECT_TYPES.BUFF,       
     },
     {
         img: 'images/008.png',
-        title: 'Ночной воришка',
+        title: 'Бумер ролл',
         type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/009.png',
-        title: 'Разбитое зеркало',
+        title: 'Зумер ролл',
         type: EFFECT_TYPES.DEBUFF,
     },
     {
-        img: 'images/010.png',
-        title: 'Колючая проволока',
+        img: 'images/0010.png',
+        title: 'Чат закон',
         type: EFFECT_TYPES.DEBUFF,
     },
     {
-        img: 'images/011.png',
-        title: 'Тупое говно тупого говна',
+        img: 'images/0011.png',
+        title: 'Стример закон',
         type: EFFECT_TYPES.DEBUFF,
-    },    
+    }, 
+    {
+        img: 'images/0012.png',
+        title: 'Акция 1=2',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0013.png',
+        title: 'Динамит',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0014.png',
+        title: 'Стонкс',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0015.png',
+        title: 'НЕСтонкс',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0016.png',
+        title: 'Швейцарский нож',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0017.png',
+        title: 'Дымовая граната',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
