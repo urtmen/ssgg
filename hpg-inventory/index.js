@@ -15,6 +15,10 @@ const items = [
         img: 'images/0002.png',
         title: 'Дымовая граната'
     },
+    {
+        img: 'images/003.png',
+        title: 'Мультитул Аликс Вэнс'
+    },
     
 ];
 let selectedCellKey = false;
