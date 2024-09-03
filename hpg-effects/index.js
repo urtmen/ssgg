@@ -89,16 +89,6 @@ const items = [
         title: 'НЕСтонкс',
         type: EFFECT_TYPES.DEBUFF,
     },
-    {
-        img: 'images/0016.png',
-        title: 'Швейцарский нож',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0017.png',
-        title: 'Дымовая граната',
-        type: EFFECT_TYPES.DEBUFF,
-    },
 ];
 let selectedCellKey = false;
 
