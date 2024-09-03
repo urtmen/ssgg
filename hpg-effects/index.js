@@ -99,6 +99,11 @@ const items = [
         title: 'Русская рулетка',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0018.png',
+        title: 'Капкан',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
