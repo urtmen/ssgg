@@ -89,6 +89,11 @@ const items = [
         title: 'НЕСтонкс',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0016.png',
+        title: 'Азбука',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
