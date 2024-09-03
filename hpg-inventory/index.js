@@ -9,12 +9,12 @@ const items = [
     },
     {
         img: 'images/0001.png',
-        title: 'Щвейцарский нож'
+        title: 'Щвейцарский нож',
         count: 1,
     },
     {
         img: 'images/0002.png',
-        title: 'Дымовая граната'
+        title: 'Дымовая граната',
         count: 1,
     },
     {
