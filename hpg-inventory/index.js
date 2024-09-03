@@ -16,12 +16,6 @@ const items = [
         title: 'Дымовая граната'
     },
     
-    {
-        img: 'images/05.png',
-        title: 'Рейдерские лохмотья (Шиш-Кебаб, Кукла вуду, Альпинистский трос)',
-        count: 2,
-        isNotSlot: true
-    },
 ];
 let selectedCellKey = false;
 
