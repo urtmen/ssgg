@@ -4,147 +4,19 @@ let cells = [];
 const items = [
     
     {
-        img: 'images/000.png',
-        title: 'Пустая ячейка'
+        img: 'images/0001.png',
+        title: 'Щвейцарский нож'
+        count: 1,
+    },
+    {
+        img: 'images/0002.png',
+        title: 'Дымовая граната'
+        count: 1,
     },
     {
         img: 'images/051.png',
         title: 'Щit',
         count: 2,
-    },
-    {
-        img: 'images/052.png',
-        title: 'Комбинезон химзащиты'
-    },
-    {
-        img: 'images/053.png',
-        title: 'Рулон туалетной бумаги',
-        count: 2,
-    },
-    {
-        img: 'images/054.png',
-        title: 'Респиратор',
-        count: 10,
-    },
-    {
-        img: 'images/055.png',
-        title: 'Одноразовые перчатки'
-    },
-    {
-        img: 'images/056.png',
-        title: 'Банка шпината'
-    },
-    {
-        img: 'images/057.png',
-        title: 'Крышка от мусорного бака',
-    },
-    {
-        img: 'images/058.png',
-        title: 'Ремонтный набор',
-        count: 2,
-    },
-    {
-        img: 'images/059.png',
-        title: 'Антисептик'
-    },
-    {
-        img: 'images/060.png',
-        title: 'Рука для фистинга имени Билли Херрингтона',
-        count: 4,
-    },
-    {
-        img: 'images/061.png',
-        title: 'Сексуальные чулки',
-        count: 2,
-    },
-    {
-        img: 'images/062.png',
-        title: 'Четырехлистный клевер'
-    },
-    {
-        img: 'images/063.png',
-        title: 'Кукла вуду'
-    },
-    {
-        img: 'images/064.png',
-        title: 'Набор выживальщика',
-        count: 3,
-    },
-    {
-        img: 'images/065.png',
-        title: 'Наперсток удачи'
-    },
-    {
-        img: 'images/066.png',
-        title: 'Переносной телепорт'
-    },
-    {
-        img: 'images/067.png',
-        title: 'Футляр'
-    },
-    {
-        img: 'images/068.png',
-        title: 'Жилетка Вассермана',
-        count: 2,
-    },
-    {
-        img: 'images/069.png',
-        title: 'Стул мамы Мерфи',
-        count: 2,
-    },
-    {
-        img: 'images/070.png',
-        title: 'Шиш кебаб',
-        count: 7,
-    },
-    {
-        img: 'images/071.png',
-        title: 'Альпинистский трос'
-    },
-    {
-        img: 'images/072.png',
-        title: 'Хакерский компьютер'
-    },
-    {
-        img: 'images/073.png',
-        title: 'Корона короля петучей',
-        count: 3,
-    },
-    {
-        img: 'images/074.png',
-        title: 'Благословение Хакса',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/075.png',
-        title: 'Порошок прозрения',
-        count: 2
-    },
-
-    {
-        img: 'images/01.png',
-        title: 'Силовая броня (Корона короля петучей, Щit, Одноразовые перчатки)',
-        count: 2,
-        isNotSlot: true
-    },
-    {
-        img: 'images/02.png',
-        title: 'Костюм мудреца (Порошок прозрения, хакерский компьютер, Жилетка Вассермана)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/03.png',
-        title: 'Костюм "Элегантный рекетир" (Наперсток удачи, сексуальные чулки, Рука для фистинга имени Билли Херрингтона)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/04.png',
-        title: 'Костюм "Исследователь Пустошей" (Набор выживальщика, Комбинезон химзащиты, Крышка от мусорного бака)',
-        count: 3,
-        isNotSlot: true
     },
     {
         img: 'images/05.png',
