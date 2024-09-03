@@ -16,7 +16,7 @@ const items = [
         title: 'Дымовая граната'
     },
     {
-        img: 'images/003.png',
+        img: 'images/0003.png',
         title: 'Мультитул Аликс Вэнс'
     },
     
