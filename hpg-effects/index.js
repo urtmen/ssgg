@@ -104,6 +104,11 @@ const items = [
         title: 'Капкан',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0019.png',
+        title: 'Талон с ошибкой',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
