@@ -23,6 +23,11 @@ const items = [
         img: 'images/0004.png',
         title: 'Реплика щита Кэпа'
     },
+    {
+        img: 'images/0005.png',
+        title: 'Золотой жетон SSGG',
+        count: 3,
+    },
     
 ];
 let selectedCellKey = false;
