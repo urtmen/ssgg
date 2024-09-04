@@ -28,6 +28,10 @@ const items = [
         title: 'Золотой жетон SSGG',
         count: 3,
     },
+    {
+        img: 'images/0006.png',
+        title: 'Инструкция для чайников'
+    },
     
 ];
 let selectedCellKey = false;
