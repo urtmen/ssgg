@@ -32,6 +32,10 @@ const items = [
         img: 'images/0006.png',
         title: 'Инструкция для чайников'
     },
+    {
+        img: 'images/0007.png',
+        title: 'Бронежилет из дропсов'
+    },
     
 ];
 let selectedCellKey = false;
