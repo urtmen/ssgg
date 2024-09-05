@@ -41,6 +41,10 @@ const items = [
         img: 'images/0008.png',
         title: 'Альпинистский карабин'
     },
+    {
+        img: 'images/0009.png',
+        title: 'Контейнер Kappa'
+    },
     
 ];
 let selectedCellKey = false;
