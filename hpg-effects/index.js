@@ -109,6 +109,11 @@ const items = [
         title: 'Талон с ошибкой',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0020.png',
+        title: 'Бронежилет Отмены',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
