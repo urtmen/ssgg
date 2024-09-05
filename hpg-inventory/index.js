@@ -34,7 +34,8 @@ const items = [
     },
     {
         img: 'images/0007.png',
-        title: 'Бронежилет из дропсов'
+        title: 'Бронежилет из дропсов',
+        count: 2,
     },
     
 ];
