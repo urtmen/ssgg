@@ -114,6 +114,11 @@ const items = [
         title: 'Бронежилет Отмены',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0021.png',
+        title: 'Шпаргалка',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
