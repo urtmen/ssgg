@@ -119,6 +119,11 @@ const items = [
         title: 'Шпаргалка',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0022.png',
+        title: 'Проездной ТАТ',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
