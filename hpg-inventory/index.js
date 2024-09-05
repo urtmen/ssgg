@@ -37,6 +37,10 @@ const items = [
         title: 'Бронежилет из дропсов',
         count: 2,
     },
+    {
+        img: 'images/0008.png',
+        title: 'Альпинистский карабин'
+    },
     
 ];
 let selectedCellKey = false;
