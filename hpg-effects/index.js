@@ -159,6 +159,11 @@ const items = [
         title: 'Записка Окрашено',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0030.png',
+        title: 'Шар Цыганки',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
