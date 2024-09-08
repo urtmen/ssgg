@@ -149,6 +149,11 @@ const items = [
         title: 'Ненастоящий жетон',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0028.png',
+        title: 'Швейный набор',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
