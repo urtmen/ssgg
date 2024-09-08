@@ -154,6 +154,11 @@ const items = [
         title: 'Швейный набор',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0029.png',
+        title: 'Записка Окрашено',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
