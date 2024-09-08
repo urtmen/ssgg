@@ -139,6 +139,11 @@ const items = [
         title: 'Красная таблетка',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0026.png',
+        title: 'Маска везунчика',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
