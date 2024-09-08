@@ -144,6 +144,11 @@ const items = [
         title: 'Маска везунчика',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0027.png',
+        title: 'Ненастоящий жетон',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
