@@ -164,6 +164,11 @@ const items = [
         title: 'Шар Цыганки',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0031.png',
+        title: 'Лезвие воришки',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
