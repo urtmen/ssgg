@@ -129,6 +129,16 @@ const items = [
         title: 'Стопка пираток',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0024.png',
+        title: 'Синяя таблетка',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0025.png',
+        title: 'Красная таблетка',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
