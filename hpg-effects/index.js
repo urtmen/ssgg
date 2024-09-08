@@ -174,6 +174,11 @@ const items = [
         title: 'Шо опять',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0033.png',
+        title: 'Дыра в мешке',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
