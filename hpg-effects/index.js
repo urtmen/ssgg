@@ -169,6 +169,11 @@ const items = [
         title: 'Лезвие воришки',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0032.png',
+        title: 'Шо опять',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
