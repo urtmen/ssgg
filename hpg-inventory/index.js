@@ -45,6 +45,10 @@ const items = [
         img: 'images/0009.png',
         title: 'Контейнер Kappa'
     },
+     {
+        img: 'images/00010.png',
+        title: 'Ордер с красной печатью'
+    },
     
 ];
 let selectedCellKey = false;
