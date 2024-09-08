@@ -124,6 +124,11 @@ const items = [
         title: 'Проездной ТАТ',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0023.png',
+        title: 'Стопка пираток',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
