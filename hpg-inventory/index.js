@@ -25,7 +25,7 @@ const items = [
     },
     {
         img: 'images/0005.png',
-        title: 'Золотой жетон SSGG',
+        title: 'Золотой жетон PSE',
         count: 3,
     },
     {
