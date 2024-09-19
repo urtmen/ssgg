@@ -179,6 +179,16 @@ const items = [
         title: 'Дыра в мешке',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/0034.png',
+        title: 'Красная карточка',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0035.png',
+        title: 'Золотой билет',
+        type: EFFECT_TYPES.DEBUFF,
+    },
 ];
 let selectedCellKey = false;
 
