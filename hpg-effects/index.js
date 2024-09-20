@@ -6,7 +6,11 @@ let cells = [],
 const EFFECT_TYPES = {
     NONE: 'NONE',
     BUFF: 'BUFF',
-    DEBUFF: 'DEBUFF',    
+    DEBUFF: 'DEBUFF',
+    TARGET_TRAP: 'TARGET_TRAP',
+    NONTARGET_TRAP: 'NONTARGET_TRAP',
+    SPECIFIC_WHEEL_ROLL: 'SPECIFIC_WHEEL_ROLL',
+    FOOD: 'FOOD'
 };
 const items = [
     {
@@ -52,27 +56,27 @@ const items = [
     {
         img: 'images/008.png',
         title: 'Бумер ролл',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.SPECIFIC_WHEEL_ROLL,
     },
     {
         img: 'images/009.png',
         title: 'Зумер ролл',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.SPECIFIC_WHEEL_ROLL,
     },
     {
         img: 'images/0010.png',
         title: 'Чат закон',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.SPECIFIC_WHEEL_ROLL,
     },
     {
         img: 'images/0011.png',
         title: 'Стример закон',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.SPECIFIC_WHEEL_ROLL,
     }, 
     {
         img: 'images/0012.png',
         title: 'Акция 1=2',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.SPECIFIC_WHEEL_ROLL,
     },
     {
         img: 'images/0013.png',
