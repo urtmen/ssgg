@@ -275,7 +275,7 @@ function getImageURI(index) {
         case "inventory":
             offset = 50;
         case "effects":
-            result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
+            result = '../hpg-effects/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
 
         case "debuffs":
