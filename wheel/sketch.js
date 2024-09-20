@@ -4,8 +4,8 @@
 const descElem = document.getElementById('description')
 const descSets = {
   'Плюс игра' : {
-    type:     'debuffs',
-    debuffs:   'Дебафф',
+    type:     'Дебафф',
+    debuffs,
     strength:   0, //Если не используется - указать 0
     uses:    0, //Если не используется - указать 0
     desc:     'Стример должен зароллить +1 игру на текущем ценовом отрезке'
