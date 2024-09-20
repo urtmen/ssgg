@@ -4,7 +4,6 @@
 const descElem = document.getElementById('description')
 const descSets = {
   'Плюс игра' : {
-    type:     'Дебафф',
     debuffs:  '_',
     strength:   0, //Если не используется - указать 0
     uses:    0, //Если не используется - указать 0
