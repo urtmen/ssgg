@@ -4,10 +4,11 @@
 const descElem = document.getElementById('description')
 const descSets = {
   'Плюс игра' : {
+    debuffs
     type:     'Дебафф',
     strength:   0, //Если не используется - указать 0
     uses:    0, //Если не используется - указать 0
-    desc:     'Стример должен заролить +1 игру на текущем ценовом отрезке'
+    desc:     'Стример должен зароллить +1 игру на текущем ценовом отрезке'
     //newprop: 'тест нового свойства' // вот так добавляем новое свойство в объект
   },
   'Минус игра' : {
@@ -369,9 +370,9 @@ function wheelSketch(_p5) {
 // Текст внутри "span" также заменяем на свой
 descElem.innerHTML = `
     ${descSets[data[key]]?.type ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
-    ${descSets[data[key]]?.debuffs ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
-    ${descSets[data[key]]?.buffs ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
-    ${descSets[data[key]]?.specroll ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
+    ${descSets[data[key]]?.debuffs ? `<p><span class="type">Дебафф</span> ${descSets[data[key]]?.type}</p>` : ''}
+    ${descSets[data[key]]?.buffs ? `<p><span class="type">Бафф</span> ${descSets[data[key]]?.type}</p>` : ''}
+    ${descSets[data[key]]?.specroll ? `<p><span class="type">Особый ролл</span> ${descSets[data[key]]?.type}</p>` : ''}
     ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
     ${descSets[data[key]]?.uses ? `<p><span class="uses">Количество использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
     ${descSets[data[key]]?.lore ? `<p><span class="lore">Описание:</span> ${descSets[data[key]]?.lore}</p>` : ''}
