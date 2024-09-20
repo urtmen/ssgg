@@ -349,6 +349,9 @@ button:disabled {
     font-weight: 800;
 
     &.type {color: #d4f0f9;}
+    &.buffs {color: #7ac47d;}
+    &.debuffs {color: #e0665e;}
+    &.specroll {color: #ff00ff;}
     &.strength {color: #c96e12;}
     &.uses {color: #ffbc00;}
     &.lore {color: #a0a0a0;}
