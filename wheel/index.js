@@ -231,12 +231,6 @@ class Presets {
             streamers: [
                 new PresetAll(),
             ],
-            damage: [
-                new PresetAll(),
-            ],
-            strangers: [
-                new PresetAll(),
-            ],
             
         };
     }
