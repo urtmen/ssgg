@@ -308,7 +308,7 @@ function getImageURI(index) {
                 34,
                 35,
             ];
-            result = '../hpg-effects/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
 
         case "coin":
