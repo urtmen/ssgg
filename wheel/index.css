@@ -353,6 +353,7 @@ button:disabled {
     &.debuffs {color: #a61c00;}
     &.specroll {color: #ff00ff;}
     &.perm {color: #00ffff;}
+    &.debuses {color: #ea9999;}
     &.strength {color: #c96e12;}
     &.uses {color: #ffbc00;}
     &.lore {color: #a0a0a0;}
