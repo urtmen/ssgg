@@ -17,37 +17,37 @@ const items = [
     {
         img: 'images/001.png',
         title: 'Плюс игра',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/002.png',
         title: 'Минус игра',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/003.png',
         title: 'Оптовая закупка',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/004.png',
         title: 'Орел Решка',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/005.png',
         title: 'Интрига',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/006.png',
         title: 'Спонсорское задание',
-        type: EFFECT_TYPES.BUFF,
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/007.png',
         title: 'Во власти чисел',
-        type: EFFECT_TYPES.BUFF,       
+        type: EFFECT_TYPES.DEBUFF,       
     },
     {
         img: 'images/008.png',
@@ -67,7 +67,7 @@ const items = [
     {
         img: 'images/0011.png',
         title: 'Стример закон',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     }, 
     {
         img: 'images/0012.png',
@@ -82,7 +82,7 @@ const items = [
     {
         img: 'images/0014.png',
         title: 'Стонкс',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0015.png',
@@ -92,7 +92,7 @@ const items = [
     {
         img: 'images/0016.png',
         title: 'Азбука',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
      {
         img: 'images/0017.png',
@@ -117,12 +117,12 @@ const items = [
     {
         img: 'images/0021.png',
         title: 'Шпаргалка',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0022.png',
         title: 'Проездной ТАТ',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0023.png',
@@ -132,7 +132,7 @@ const items = [
     {
         img: 'images/0024.png',
         title: 'Синяя таблетка',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0025.png',
@@ -142,7 +142,7 @@ const items = [
     {
         img: 'images/0026.png',
         title: 'Маска везунчика',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0027.png',
@@ -152,7 +152,7 @@ const items = [
     {
         img: 'images/0028.png',
         title: 'Швейный набор',
-        type: EFFECT_TYPES.DEBUFF,
+        type: EFFECT_TYPES.BUFF,
     },
     {
         img: 'images/0029.png',
