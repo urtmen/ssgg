@@ -4,7 +4,7 @@
 const descElem = document.getElementById('description')
 const descSets = {
   'Плюс игра' : {
-    debuffs,
+    debuffs:   'ㅤ',
     strength:   0, //Если не используется - указать 0
     uses:    0, //Если не используется - указать 0
     desc:     'Стример должен зароллить +1 игру на текущем ценовом отрезке'
@@ -369,7 +369,7 @@ function wheelSketch(_p5) {
 descElem.innerHTML = `
     ${descSets[data[key]]?.type ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
     ${descSets[data[key]]?.buffs ? `<p><span class="buffs">Бафф</span> ${descSets[data[key]]?.buffs}</p>` : ''}
-    ${descSets[data[key]]?.debuffs ? `<p><span class="debuffs">Дебафф</span> ${descSets[data[key]]?.debuffs}</p>`}
+    ${descSets[data[key]]?.debuffs ? `<p><span class="debuffs">Дебафф</span> ${descSets[data[key]]?.debuffs}</p>` ''}
     ${descSets[data[key]]?.specroll ? `<p><span class="specroll">Особый ролл</span> ${descSets[data[key]]?.specroll}</p>` : ''}
     ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
     ${descSets[data[key]]?.uses ? `<p><span class="uses">Количество использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
