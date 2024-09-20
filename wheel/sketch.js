@@ -138,8 +138,9 @@ const descSets = {
   'Бронежилет Отмены' : {
     debuffs:     ' ',
     perm:        ' ',
+    debuses:    3, //Если не используется - указать 0
     strength:   0, //Если не используется -указать 0
-    uses:    3, //Если не используется - указать 0
+    uses:    0, //Если не используется - указать 0
     lore:    'Пошлый красный цвет, логотип какого-то неизвестного, возможно даже стримера, но мы такого не знаем.',
     desc:     'При получении Талона стримеру придется вернуться на один отрезок назад. Если на момент получения стример уже проходит игру, то шаг назад он должен сделать после прохождения или дропа игры. Не может выпасть больше одного за раз.'
   },
@@ -500,7 +501,8 @@ descElem.innerHTML = `
     ${descSets[data[key]]?.specroll ? `<p><span class="specroll">Особый ролл</span> ${descSets[data[key]]?.specroll}</p>` : ''}
     ${descSets[data[key]]?.perm ? `<p><span class="perm">Перманентное событие</span> ${descSets[data[key]]?.perm}</p>` : ''}
     ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
-    ${descSets[data[key]]?.uses ? `<p><span class="uses">Количество использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
+    ${descSets[data[key]]?.uses ? `<p><span class="uses">Кол-во использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
+    ${descSets[data[key]]?.debuses ? `<p><span class="debuses">Кол-во действий:</span> ${descSets[data[key]]?.debuses}</p>` : ''}
     ${descSets[data[key]]?.lore ? `<p><span class="lore">Описание:</span> ${descSets[data[key]]?.lore}</p>` : ''}
     ${descSets[data[key]]?.desc || ''}`
                 }
