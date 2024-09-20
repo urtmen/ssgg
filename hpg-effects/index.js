@@ -35,7 +35,7 @@ const items = [
     },
     {
         img: 'images/004.png',
-        title: 'Орел Решка',
+        title: 'Орел или Решка',
         type: EFFECT_TYPES.DEBUFF,
     },
     {
