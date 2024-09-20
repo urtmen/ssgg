@@ -356,7 +356,7 @@ button:disabled {
     &.debuses {color: #ea9999;}
     &.strength {color: #c96e12;}
     &.uses {color: #ffbc00;}
-    &.lore {color: #a0a0a0;}
+    &.lore {color: #669999;}
 /*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
   }
 }
