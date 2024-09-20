@@ -225,12 +225,12 @@ class Presets {
             //     new PresetAll(),
             // ],
             effects: [
-                new PresetAll(),
-                new PresetWithoutSpecialRolls(true),
+                new PresetAll(true),
+                new PresetWithoutSpecialRolls(),
             ],
             debuffs: [
-                new PresetAll(),
-                new PresetWithoutSpecialRolls(true),
+                new PresetAll(true),
+                new PresetWithoutSpecialRolls(),
             ],
             streamers: [
                 new PresetAll(),
