@@ -280,10 +280,33 @@ function getImageURI(index) {
 
         case "debuffs":
             const mapping = [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
                 8,
                 9,
                 10,
-                11
+                12,
+                13,
+                15,
+                17,
+                18,
+                19,
+                20,
+                23,
+                25,
+                27,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
             ];
             result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
@@ -297,19 +320,6 @@ function getImageURI(index) {
                 result = '../images/coin-gurt.png';
             }
             break;
-
-       case "damage":
-            result = '../images/damage_legs-20.png';
-            if (index === 1) {
-                result = '../images/damage_hands-20.png';
-            }
-            if (index === 10) {
-                result = '../images/damage_head.png';
-            }
-            if (index === 11) {
-                result = '../images/damage_miss.png';
-            }
-            break;     
 
         case "streamers":
             result = '../images/streamers/'+ dataSets[currentDataSet][index] +'.png';
