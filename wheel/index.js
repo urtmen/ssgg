@@ -274,8 +274,8 @@ function getImageURI(index) {
     switch (currentDataSet) {
         case "inventory":
             offset = 50;
-        case "effects":
-            result = '../hpg-effects/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
+        case "inventory":
+            result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
 
         case "debuffs":
@@ -308,7 +308,7 @@ function getImageURI(index) {
                 34,
                 35,
             ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
+            result = '../hpg-effects/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
 
         case "coin":
