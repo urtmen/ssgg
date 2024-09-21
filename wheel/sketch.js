@@ -685,7 +685,7 @@ descElem.innerHTML = `
     ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
     ${descSets[data[key]]?.uses ? `<p><span class="uses">Кол-во использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
     ${descSets[data[key]]?.debuses ? `<p><span class="debuses">Кол-во действий:</span> ${descSets[data[key]]?.debuses}</p>` : ''}
-    ${descSets[data[key]]?.lore ? `<p><span class="lore">Лор:</span> ${descSets[data[key]]?.lore}</p>` : ''}
+    ${descSets[data[key]]?.lore ? `<p><span class="lore">Заметка:</span> ${descSets[data[key]]?.lore}</p>` : ''}
     ${descSets[data[key]]?.desc || ''}`
                 }
             }
