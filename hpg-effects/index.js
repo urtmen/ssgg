@@ -193,6 +193,61 @@ const items = [
         title: 'Золотой билет',
         type: EFFECT_TYPES.DEBUFF,
     },
+    {
+        img: 'images/036.png',
+        title: 'Золотое колесо событий',
+        type: EFFECT_TYPES.BUFF,
+    },
+    {
+        img: 'images/037.png',
+        title: 'Измазанное колесо событий',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/038.png',
+        title: 'Разбитые часы',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/039.png',
+        title: 'Желтый пропуск',
+        type: EFFECT_TYPES.BUFF,
+    },
+    {
+        img: 'images/040.png',
+        title: 'Красный пропуск',
+        type: EFFECT_TYPES.BUFF,
+    },
+    {
+        img: 'images/041.png',
+        title: 'Колесо с наклейкой SALE',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/042.png',
+        title: 'Энергетик All Stop',
+        type: EFFECT_TYPES.FOOD,
+    },
+    {
+        img: 'images/043.png',
+        title: 'Активированный уголь',
+        type: EFFECT_TYPES.FOOD,
+    },
+    {
+        img: 'images/044.png',
+        title: 'Газировка с особой крышкой',
+        type: EFFECT_TYPES.FOOD,
+    },
+    {
+        img: 'images/045.png',
+        title: 'Кротовуха',
+        type: EFFECT_TYPES.FOOD,
+    },
+    {
+        img: 'images/046.png',
+        title: 'Сомнительная шаурма',
+        type: EFFECT_TYPES.FOOD,
+    },
 ];
 let selectedCellKey = false;
 
