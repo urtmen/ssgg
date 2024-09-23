@@ -359,6 +359,8 @@ button:disabled {
     &.uses {color: #ffbc00;}
     &.lore {color: #669999;}
     &.proviant {color: #b4a7d6;}
+    &.plus {color: #6aa84f;}
+    &.minus {color: #e06666;}
 /*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
   }
 }
