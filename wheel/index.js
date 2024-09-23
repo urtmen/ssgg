@@ -51,6 +51,17 @@ const dataSets = {
         'Дыра в мешке',
         'Красная карточка',
         'Золотой билет',
+        'Золотое колесо событий',
+        'Измазанное колесо событий',
+        'Разбитые часы',
+        'Желтый пропуск',
+        'Красный пропуск',
+        'Колесо с наклейкой SALE',
+        'Энергетик All Stop',
+        'Активированный уголь',
+        'Газировка с особой крышкой',
+        'Кротовуха',
+        'Сомнительная шаурма',
     ],
     coin: [
         'Орёл',
@@ -101,6 +112,9 @@ const dataSets = {
         'Дыра в мешке',
         'Красная карточка',
         'Золотой билет',
+        'Измазанное колесо событий',
+        'Разбитые часы',
+        'Колесо с наклейкой SALE',
     ],
 };
 let currentDataSet = 'inventory',
@@ -273,7 +287,7 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-            offset = 35;
+            offset = 46;
         case "effects":
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
@@ -307,6 +321,9 @@ function getImageURI(index) {
                 33,
                 34,
                 35,
+                37,
+                38,
+                41,
             ];
             result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
