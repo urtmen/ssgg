@@ -767,19 +767,19 @@ function wheelSketch(_p5) {
 // newprop - это название нового свойства. В объект descSets необходимо добавить такое же свойство
 // Текст внутри "span" также заменяем на свой
 descElem.innerHTML = `
-    ${descSets[data[key]]?.type ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
-    ${descSets[data[key]]?.item ? `<p><span class="item">Предмет</span> ${descSets[data[key]]?.item}</p>` : ''}
-    ${descSets[data[key]]?.buffs ? `<p><span class="buffs">Бафф</span> ${descSets[data[key]]?.buffs}</p>` : ''}
-    ${descSets[data[key]]?.debuffs ? `<p><span class="debuffs">Дебафф</span> ${descSets[data[key]]?.debuffs}</p>` : ''}
-    ${descSets[data[key]]?.specroll ? `<p><span class="specroll">Особый ролл</span> ${descSets[data[key]]?.specroll}</p>` : ''}
-    ${descSets[data[key]]?.perm ? `<p><span class="perm">Перманентное событие</span> ${descSets[data[key]]?.perm}</p>` : ''}
-    ${descSets[data[key]]?.proviant ? `<p><span class="proviant">Провиант</span> ${descSets[data[key]]?.proviant}</p>` : ''}
-    ${descSets[data[key]]?.plus ? `<p><span class="plus">+:</span> ${descSets[data[key]]?.plus}</p>` : ''}
-    ${descSets[data[key]]?.minus ? `<p><span class="minus">-:</span> ${descSets[data[key]]?.minus}</p>` : ''}
-    ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
-    ${descSets[data[key]]?.uses ? `<p><span class="uses">Кол-во использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
-    ${descSets[data[key]]?.debuses ? `<p><span class="debuses">Кол-во действий:</span> ${descSets[data[key]]?.debuses}</p>` : ''}
-    ${descSets[data[key]]?.lore ? `<p><span class="lore">Заметка:</span> ${descSets[data[key]]?.lore}</p>` : ''}
+    ${descSets[data[key]]?.type ? `<p class="type"><span>Тип: </span> ${descSets[data[key]]?.type}</p>` : ''}
+    ${descSets[data[key]]?.item ? `<p class="item"><span>Предмет</span> ${descSets[data[key]]?.item}</p>` : ''}
+    ${descSets[data[key]]?.buffs ? `<p class="buffs"><span>Бафф</span> ${descSets[data[key]]?.buffs}</p>` : ''}
+    ${descSets[data[key]]?.debuffs ? `<p class="debuffs"><span>Дебафф</span> ${descSets[data[key]]?.debuffs}</p>` : ''}
+    ${descSets[data[key]]?.specroll ? `<p class="specroll"><span>Особый ролл</span> ${descSets[data[key]]?.specroll}</p>` : ''}
+    ${descSets[data[key]]?.perm ? `<p class="perm"><span>Перманентное событие</span> ${descSets[data[key]]?.perm}</p>` : ''}
+    ${descSets[data[key]]?.proviant ? `<p class="proviant"><span>Провиант</span> ${descSets[data[key]]?.proviant}</p>` : ''}
+    ${descSets[data[key]]?.plus ? `<p class="plus"><span>+: </span> ${descSets[data[key]]?.plus}</p>` : ''}
+    ${descSets[data[key]]?.minus ? `<p class="minus"><span>-: </span> ${descSets[data[key]]?.minus}</p>` : ''}
+    ${descSets[data[key]]?.strength ? `<p class="strength"><span>Прочность: </span> ${descSets[data[key]]?.strength}</p>` : ''}
+    ${descSets[data[key]]?.uses ? `<p class="uses"><span>Кол-во использований: </span> ${descSets[data[key]]?.uses}</p>` : ''}
+    ${descSets[data[key]]?.debuses ? `<p class="debuses"><span>Кол-во действий: </span> ${descSets[data[key]]?.debuses}</p>` : ''}
+    ${descSets[data[key]]?.lore ? `<p class="lore"><span>Заметка: </span> ${descSets[data[key]]?.lore}</p>` : ''}
     ${descSets[data[key]]?.desc || ''}`
                 }
             }
