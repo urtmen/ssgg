@@ -347,20 +347,20 @@ button:disabled {
 
   & span {
     font-weight: 800;
-
-    &.type {color: #d4f0f9;}
-    &.buffs {color: #7ac47d;}
-    &.debuffs {color: #a61c00;}
-    &.specroll {color: #ff00ff;}
-    &.perm {color: #00ffff;}
-    &.debuses {color: #ea9999;}
-    &.item {color: #6d9eeb;}
-    &.strength {color: #c96e12;}
-    &.uses {color: #ffbc00;}
-    &.lore {color: #669999;}
-    &.proviant {color: #b4a7d6;}
-    &.plus {color: #6aa84f;}
-    &.minus {color: #e06666;}
-/*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
+    /*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
   }
+
+  & .type {color: #d4f0f9;}
+  & .buffs {color: #7ac47d;}
+  & .debuffs {color: #a61c00;}
+  & .specroll {color: #ff00ff;}
+  & .perm {color: #00ffff;}
+  & .debuses {color: #ea9999;}
+  & .item {color: #6d9eeb;}
+  & .strength {color: #c96e12;}
+  & .uses {color: #ffbc00;}
+  & .lore {color: #669999;}
+  & .proviant {color: #b4a7d6;}
+  & .plus {color: #6aa84f;}
+  & .minus {color: #e06666;}
 }
