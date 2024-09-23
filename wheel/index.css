@@ -358,6 +358,7 @@ button:disabled {
     &.strength {color: #c96e12;}
     &.uses {color: #ffbc00;}
     &.lore {color: #669999;}
+    &.proviant {color: #b4a7d6;}
 /*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
   }
 }
