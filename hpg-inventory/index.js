@@ -8,45 +8,45 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'images/036.png',
+        img: 'images/047.png',
         title: 'Щвейцарский нож'
     },
     {
-        img: 'images/037.png',
+        img: 'images/048.png',
         title: 'Дымовая граната'
     },
     {
-        img: 'images/038.png',
+        img: 'images/049.png',
         title: 'Мультитул Аликс Вэнс'
     },
     {
-        img: 'images/039.png',
+        img: 'images/050.png',
         title: 'Реплика щита Кэпа'
     },
     {
-        img: 'images/040.png',
+        img: 'images/051.png',
         title: 'Золотой жетон PSE',
         count: 3,
     },
     {
-        img: 'images/041.png',
+        img: 'images/052.png',
         title: 'Инструкция для чайников'
     },
     {
-        img: 'images/042.png',
+        img: 'images/053.png',
         title: 'Бронежилет из дропсов',
         count: 2,
     },
     {
-        img: 'images/043.png',
+        img: 'images/054.png',
         title: 'Альпинистский карабин'
     },
     {
-        img: 'images/044.png',
+        img: 'images/055.png',
         title: 'Контейнер Kappa'
     },
      {
-        img: 'images/045.png',
+        img: 'images/056.png',
         title: 'Ордер с красной печатью'
     },
     
